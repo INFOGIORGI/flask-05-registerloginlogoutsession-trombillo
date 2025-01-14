@@ -1,1 +1,19 @@
 {%extends 'base.html'%}
+{%block contenuto_container%}
+<body>
+    <form action="/registrati/" method="POST">
+        <h3>Nome</h3>
+        <input type="text" name="nome" required>
+        
+        <h3>Cognome</h3>
+        <input type="text" name="cognome" required>
+        
+        <h3>Password</h3>
+        <input type="password" name="password" required>
+        
+        <h3>Conferma Password</h3>
+        <input type="password" name="conferma_password" required>
+        
+        <input type="submit" value="Registrati">
+    </form>
+</body>
