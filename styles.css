@@ -1,0 +1,98 @@
+/* Generale */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1, h2 {
+    color: #4e73df;
+    text-align: center;
+}
+
+/* Contenitore principale */
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Modulo */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #4e73df;
+}
+
+button {
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2e59d9;
+}
+
+/* Link */
+a {
+    color: #4e73df;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Messaggio di benvenuto */
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Gestione delle pagine */
+p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Stile per il login e la registrazione */
+#login-link, #register-link {
+    text-align: center;
+    margin-top: 20px;
+}

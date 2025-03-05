@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benvenuto</title>
+    <title>Profilo</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Benvenuto!</h1>
-        <p>Vuoi accedere o registrarti?</p>
-        <a href="{{ url_for('login') }}" id="login-link">Accedi</a>
-        <a href="{{ url_for('register') }}" id="register-link">Registrati</a>
+        <h2>Benvenuto, {{ username }}!</h2>
+        <p>Questa è la tua pagina personale.</p>
+
+        <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
     </div>
 </body>
 </html>
